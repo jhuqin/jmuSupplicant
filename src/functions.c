@@ -88,7 +88,7 @@ uint8_t
 // description:
 //    字符串编码转换
 //------------------------------------------------------------------------
-int code_convert(char *from_charset, char *to_charset,
+/*int code_convert(char *from_charset, char *to_charset,
              char *inbuf, size_t inlen, char *outbuf, size_t outlen)
 {
   iconv_t cd;
@@ -105,7 +105,7 @@ int code_convert(char *from_charset, char *to_charset,
   iconv_close(cd);
   return 0;
 }
-
+*/
 void print_notification_msg(const uint8_t *frame)
 {
   char            msg_buf[1024];
