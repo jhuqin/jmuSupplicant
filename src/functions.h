@@ -10,7 +10,6 @@
 #include <malloc.h>
 #endif
 
-#include <iconv.h>
 #include <fcntl.h>
 #include <signal.h>
 #include <syslog.h>
